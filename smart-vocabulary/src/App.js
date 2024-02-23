@@ -1,13 +1,11 @@
-
-import './App.css';
 import React from 'react';
-import Header from './components/Header';
+import './App.css';
+import Table from './components/Table';
+
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-    </div>
+    <Table/>
   );
 }
 
