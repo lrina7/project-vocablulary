@@ -1,3 +1,4 @@
+const words = 
 [
   {
     "id":"15271",
@@ -64,3 +65,5 @@
     "tags_json":"[]"
   }
 ]
+
+export default words;

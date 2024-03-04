@@ -1,7 +1,7 @@
 import Item from './Table/Item/Item';
 
 const Table = (props) => {
-  let words = require('../words.json');
+  let words = require('../constants/words');
   let isEdit = false;
 
 
