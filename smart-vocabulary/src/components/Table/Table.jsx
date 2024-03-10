@@ -1,7 +1,7 @@
-import Item from './Table/Item/Item';
+import Item from './Item/Item';
 
 const Table = (props) => {
-  let words = require('../constants/words');
+  let words = require('../../constants/words');
   let isEdit = false;
 
 
@@ -15,8 +15,8 @@ const Table = (props) => {
       <th>russian</th>
       <th></th>
     </tr>
-    {words.map((words)=> {
-      return <Item key={words.id} {...words} isEdit={isEdit}/>
+    {words.map((word)=> {
+      return <Item key={word.id} {...word} isEdit={isEdit}/>
     })}
     </thead>
   </table>)

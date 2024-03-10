@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./card.module.css";
-import words from "../constants/words.js";
+import words from "../../constants/words";
 
 const Card = (props)=>{
   const {english, transcription, russian, id} = props;
