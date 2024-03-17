@@ -67,3 +67,4 @@ const words =
 ]
 
 export default Object.values(words);
+//export default words;
